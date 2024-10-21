@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    cursor: url('cursor.png'), pointer;
+     background: #FFFDD0;
+}
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .comic-neue-light-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .comic-neue-regular-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .comic-neue-bold-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+body{
+    text-align: center;
+    
+}
+.page{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height:70vmin;
+    width: 70vmin;
+    background-color:#581845;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.8rem;
+    border: 3px solid gold;
+
+}
+.box{
+    background-color: white;
+    height: 20vmin;
+    line-height: 20vmin;
+    width:  20vmin;
+    border-radius: 1rem;
+    font-size: 7rem;
+    text-align: center;
+    border: 3px solid gold;
+    background-color: #FFFDD0;
+}
+.k{
+  color:#221361;
+}
+button
+{
+  border:none;
+  outline: none;
+  background-color: #154360;
+  color:gold;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius:0.7rem ;
+}
+
+@media (width>=1440px) {
+  html{
+    font-size: 20px;
+  }
+}
+@media (width>=1119px) {
+  html{
+    font-size: 16px;
+  }
+}
+
+
+@media (width<=1118px) {
+  html{
+    font-size: 16px;
+  }
+}
+@media (width<=985px) {
+  html{
+    font-size: 10px;
+  }
+}
+@media (width<=808px) {
+  html{
+    font-size: 10px;
+  }
+}
+@media (width<=664px) {
+  html{
+    font-size: 15px;
+  }
+}
+@media (width<=582px) {
+  html{
+    font-size: 13px;
+  }
+}
+@media (width<=515px) {
+  html{
+   font-size: 11px;
+  }
+}
+@media (width<=409px)
+{
+  html{
+    font-size:9px;
+  }
+}
+@media (width<=337px) {
+  html{
+    font-size: 8px;
+  }
+}
+@media (width<=300px) {
+  html{
+    font-size: 7px;
+  }
+}
+@media (width<=267px) {
+  html{
+    font-size: 6px;
+  }
+}
+@media (width<=229px) {
+  html{
+    font-size: 5px;
+  }
+}
